@@ -1,0 +1,16 @@
+
+#Tutorial
+https://wiki.qt.io/Qt_for_Beginners#Examples
+
+
+#Instalar bibliotecas para rodar o QT
+sudo apt-get install build-essential libgl1-mesa-dev
+
+# no ubuntu instalar
+sudo apt-get install qt5-default
+
+
+https://forum.qt.io/topic/42322/solved-usr-bin-ld-cannot-find-lgl/2
+
+
+Gerando erro mesmo com o código correto: apagar a pasta build

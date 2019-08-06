@@ -1,0 +1,28 @@
+﻿Build started 17/09/2012 20:40:06.
+     1>Project "I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada\ListaEncadeada.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ListaEncadeada.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ListaEncadeada.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ListaEncadeada.cpp /clr:nostdlib 
+         ListaEncadeada.cpp
+     1>ListaEncadeada.cpp(6): error C2653: 'ED' : is not a class or namespace name
+     1>ListaEncadeada.cpp(6): error C2873: 'ListaDEnc' : symbol cannot be used in a using-declaration
+     1>ListaEncadeada.cpp(10): error C2065: 'ListaDEnc' : undeclared identifier
+     1>ListaEncadeada.cpp(10): error C2062: type 'int' unexpected
+     1>ListaEncadeada.cpp(12): error C2065: 'lista' : undeclared identifier
+     1>ListaEncadeada.cpp(12): error C2228: left of '.insere' must have class/struct/union
+                 type is ''unknown-type''
+     1>ListaEncadeada.cpp(13): error C2065: 'lista' : undeclared identifier
+     1>ListaEncadeada.cpp(13): error C2228: left of '.insere' must have class/struct/union
+                 type is ''unknown-type''
+     1>ListaEncadeada.cpp(14): error C2065: 'lista' : undeclared identifier
+     1>ListaEncadeada.cpp(14): error C2228: left of '.insere' must have class/struct/union
+                 type is ''unknown-type''
+     1>Done Building Project "I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada\ListaEncadeada.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.59

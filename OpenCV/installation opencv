@@ -1,0 +1,48 @@
+apt-get install build-essential checkinstall cmake
+cd /opt
+unzip opencv.zip
+cd opencv
+mkdir build
+cd build
+cmake..
+make
+make install
+
+Instalação do gstreamer
+apt-get install 
+libgstreamer0.10-0 			OK
+libgstreamer0.10-0-dev 			OK
+gstreamer0.10-tools 			OK
+gstreamer0.10-plugins-base 		OK
+libgstreamer-plugins-base0.10-dev 	OK
+gstreamer0.10-plugins-good		OK 
+gstreamer0.10-plugins-ugly 		OK
+gstreamer0.10-plugins-bad 		OK
+gstreamer0.10-ffmpeg			OK
+
+
+
+
+http://superuser.com/questions/286675/how-to-install-ffmpeg-on-debian
+
+
+
+http://milq.github.io/install-opencv-ubuntu-debian/
+
+
+http://indranilsinharoy.com/2012/11/01/installing-opencv-on-linux/
+
+http://www.javieriparraguirre.net/installing-opencv-debian/
+
+
+
+
+
+/home/rodrigo/opencv/modules/imgcodecs/src/grfmt_webp.cpp: In member function ‘virtual bool cv::WebPEncoder::write(const cv::Mat&, const std::vector<int>&)’:
+/home/rodrigo/opencv/modules/imgcodecs/src/grfmt_webp.cpp:258:93: error: ‘WebPEncodeLosslessBGR’ was not declared in this scope
+/home/rodrigo/opencv/modules/imgcodecs/src/grfmt_webp.cpp:262:94: error: ‘WebPEncodeLosslessBGRA’ was not declared in this scope
+make[2]: *** [modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o] Error 1
+make[1]: *** [modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/all] Error 2
+
+http://code.opencv.org/issues/2980
+

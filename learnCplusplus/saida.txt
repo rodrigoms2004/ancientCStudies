@@ -1,0 +1,18 @@
+nValue = 5
+&nValue = 0x7fff4dfcceac
+ptr = 0x7fff4dfcceac
+*ptr = 5
+&ptr = 0x7fff4dfccea0
+
+
+ptr_ptr = 0x7fff4dfccea0
+*ptr_ptr = 0x7fff4dfcceac
+**ptr_ptr = 5
+&ptr_ptr = 0x7fff4dfcce98
+
+
+ptr_ptr_ptr = 0x7fff4dfcce98
+*ptr_ptr_ptr = 0x7fff4dfccea0
+**ptr_ptr_ptr = 0x7fff4dfcceac
+***ptr_ptr_ptr = 5
+&ptr_ptr_ptr = 0x7fff4dfcce90

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ListaEncadeada">
+</Property><Property Name="Solution File" Value="I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada.sln">
+</Property><Property Name="User Options File" Value="I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada.suo">
+</Property><Property Name="Date" Value="segunda-feira, 17 de setembro de 2012">
+</Property><Property Name="Time" Value="20:32">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ListaEncadeada.sln" Description="File successfully backed up as I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="ListaEncadeada.suo" Description="File successfully backed up as I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada.suo.old">
+</Event><Event ErrorLevel="0" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Converting project file 'I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada\ListaEncadeada.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Done converting to new project file 'I:\UFABC\2010\Primeiro Quadrimestre 2010\BC1424 - Algoritmos e Estruturas de Dados I\Projetos VC\ListaEncadeada\ListaEncadeada\ListaEncadeada.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ListaEncadeada" Source="ListaEncadeada\ListaEncadeada.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ListaEncadeada.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ListaEncadeada.sln" Description="Converted">
+</Event></UpgradeLog>

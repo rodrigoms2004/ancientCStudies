@@ -1,0 +1,96 @@
+C/C++
+STL
+Boost
+QT
+OpenCV
+MPI
+
+Signals & Slots
+http://doc.qt.io/qt-5/signalsandslots.html
+http://www.bogotobogo.com/Qt/Qt5_SignalsSlotsGui.php
+
+Principios e Práticas
+Capítulo 10 e 11
+
+QThreads
+http://www.bogotobogo.com/Qt/Qt5_QThreads_Introduction.php
+
+Boost
+http://www.bogotobogo.com/cplusplus/boost.php
+
+SIM900 e Arduino
+https://www.cooking-hacks.com/documentation/tutorials/gprs-gsm-quadband-module-arduino-raspberry-pi-tutorial-sim-900
+
+OpenCV
+http://milq.github.io/install-opencv-ubuntu-debian/
+
+Osciloscópio
+http://hackaday.com/2013/09/20/visually-tune-your-hf-antenna-using-an-oscilloscope-and-signal-generator/
+
+Waveform Generator ARDUINO
+http://www.instructables.com/id/Arduino-Waveform-Generator/
+
+Tutorial básico de Transistores
+http://www.instructables.com/id/How-Electronic-Switches-Work-For-Noobs-Relays-and/?ALLSTEPS
+
+IPTABLES E IPSEC
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/index.html
+
+Arduino home energy monitor shield
+http://www.instructables.com/id/Arduino-home-energy-monitor-shield/?ALLSTEPS
+
+GCODE and arduino
+https://www.marginallyclever.com/blog/2013/08/how-to-build-an-2-axis-arduino-cnc-gcode-interpreter/
+
+
+Raspberry GPIO
+http://elinux.org/RPi_Low-level_peripherals#Model_A.2B.2C_B.2B_and_B2
+
+L293D e motores
+http://www.instructables.com/id/Control-your-motors-with-L293D-and-Arduino/?ALLSTEPS
+http://www.arduinoecia.com.br/2014/07/arduino-motor-shield-l293d.html
+
+Oscillators
+http://www.learnabout-electronics.org/Oscillators/osc10.php
+
+Oscilloscope
+https://learn.sparkfun.com/tutorials/how-to-use-an-oscilloscope
+
+Radius
+http://freeradius.org/doc/
+
+C++ Patterns
+http://www.sourcetricks.com/p/design-patterns-using-c.html#.VZ2p4nUViko
+
+NCURSES
+http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html#WHERETOGETIT
+http://www.vivaolinux.com.br/artigo/Utilizando-a-biblioteca-NCURSES-Parte-I?pagina=2
+http://ftp.gnu.org/gnu/ncurses/
+
+Disk clone
+https://wiki.archlinux.org/index.php/Disk_cloning
+http://www.linuxweblog.com/dd-image
+
+
+CADERNO MOTORES
+https://www.arduino.cc/en/Tutorial/ShiftOut
+http://pdf1.alldatasheet.com/datasheet-pdf/view/345498/TI/SN74HC595NE4.html
+https://www.google.com.br/search?q=l293d+step+motor+arduino&safe=off&espv=2&biw=1330&bih=666&tbm=isch&source=lnms&sa=X&ved=0CAcQ_AUoAWoVChMI5MOV3-L8xgIVQnQ-Ch2_cQ3p&dpr=1#imgrc=j0d_Uw88vS1DBM%3A
+
+http://www.wantmotor.com/ProductsView.asp?id=155&pid=80
+http://blog.filipeflop.com/motores-e-servos/controlando-motor-de-passo-5v-28byj-48-com-motor-shield.html
+https://www.arduino.cc/documents/datasheets/L293D.pdf
+
+
+http://www.arduinoecia.com.br/2014/07/arduino-motor-shield-l293d.html
+https://www.arduino.cc/en/Main/ArduinoMotorShieldR3
+
+L293 Motor Shield 
+https://learn.adafruit.com/downloads/pdf/adafruit-motor-shield.pdf
+https://docs.google.com/document/d/1OdGS0QHKCdbrbAs_x62gmfSx_UdUPFPgZjwZnVDVHDg/preview
+
+74HC595 shift register
+http://bildr.org/2011/02/74hc595/
+http://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/
+
+

@@ -1,0 +1,80 @@
+Callback = Ponteiro para a função, usado em outras bibliotecas
+
+QT usa signal and slot
+
+SLOTs são funções
+
+FORWARD list C++ 11
+
+SIGNAL possui uma lista ligada com os slots 
+
+Abaixo o signal clicked() do button possui em sua lista ligada os slots funcao() e quit().
+QObject::connect(button, SIGNAL(clicked()), &app, SLOT(funcao()));
+QObject::connect(button, SIGNAL(clicked()), &app, SLOT(quit())
+
+
+Event loop = QT
+Laço de mensagens = Windows
+
+QT trabalha com funções virtuais e Signal-Slots
+
+URL http://www.bogotobogo.com/Qt/Qt5_Creating_QtQuick2_QML_Application_Animation_A.php
+
+
+// Executa um slot de forma assincrono
+    QObject::connect(button, &QPushButton::clicked, &app, &QApplication::quit, Qt::QueuedConnection);
+    
+    
+Se não encontrar alguma classe use Build->Run qmake
+
+
+#include <QObject>
+
+class Test : public QObject
+{
+    Q_OBJECT // essa macro permite a classe Test suporte a Signal e Slot, a macro tem que ser privado
+
+signals: // sinais sempre retornam void
+    void valueChanged(int value);
+    
+...
+};                 
+                     
+MOC = Meta Object Compiler, pre-processador que compila extensões QT, gerando um arquivo moc_classe.cpp
+
+Só funciona se for implementada no arquivo header
+
+########################################################
+
+Manuipulando parents e childs
+
+No arquivo .h
+Test(QObject *parent = 0);
+
+// perimte definir qual será o pai da classe Test
+Test::Test(QObject *parent)
+    : QObject(parent),
+      m_value(0)
+{ }
+
+
+Test t1;
+Test t3(&t1); // t3 é filha de t1
+
+########################################################
+
+
+Toda aplicação que usa Widget necessita de QApplication
+
+Aplicações console precisam de QCoreApplication, não é necessária a QApplication, para suporte ao Event loop
+
+
+QPushButton *button1 = new QPushButton(QObject::tr("About QT"),mainWindow);
+tr() permite suporte multilingual..
+
+
+
+
+
+
+

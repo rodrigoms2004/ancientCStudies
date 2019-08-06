@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QMdiArea" name="mdiArea"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionNovo_Form1"/>
+    <addaction name="actionNovo_WebForm"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair_2"/>
+   </widget>
+   <widget class="QMenu" name="menuJanela">
+    <property name="title">
+     <string>Janela</string>
+    </property>
+    <addaction name="actionCascata"/>
+    <addaction name="actionLado_a_lado"/>
+    <addaction name="separator"/>
+    <addaction name="actionModo_Janela"/>
+    <addaction name="actionModo_Tabbed"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuJanela"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <attribute name="dockWidgetArea">
+    <number>4</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents"/>
+  </widget>
+  <action name="actionNovo_Form1">
+   <property name="text">
+    <string>Novo Form1</string>
+   </property>
+  </action>
+  <action name="actionNovo_WebForm">
+   <property name="text">
+    <string>Novo WebForm</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>--</string>
+   </property>
+  </action>
+  <action name="actionSair_2">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionCascata">
+   <property name="text">
+    <string>Cascata</string>
+   </property>
+  </action>
+  <action name="actionLado_a_lado">
+   <property name="text">
+    <string>Lado a lado</string>
+   </property>
+  </action>
+  <action name="actionModo_Janela">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Modo Janela</string>
+   </property>
+  </action>
+  <action name="actionModo_Tabbed">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Modo Tabbed</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionLado_a_lado</sender>
+   <signal>triggered()</signal>
+   <receiver>mdiArea</receiver>
+   <slot>tileSubWindows()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

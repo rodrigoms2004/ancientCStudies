@@ -1,0 +1,126 @@
+######################################################################
+CHAPTER 2
+######################################################################
+
+LINUX NETWORK PROGRAMMING
+
+# socket.h
+#define PF_INET 		2 		/* IP protocol family.
+#define PF_INET6 		10 		/* IP version 6. */
+#define PF_IPX 			4 		/* Novell Internet Protocol.
+#define PF_APPLETALK 	5 		/* Appletalk DDP.
+#define PF_X25 			9 		/* Reserved for X.25 project.
+
+#define AF_INET 		PF_INET 
+#define AF_INET6 		PF_INET6
+#define AF_IPX 			PF_IPX 
+#define AF_APPLETALK 	PF_APPLETALK
+#define AF_X25 			PF_X25
+
+
+#######################
+SOCKET TYPE CONSTANTS
+Type				Description
+
+SOCK_STREAM			Communications are connection-based, sequenced, reliable, and two-way
+
+SOCK_DIAGRAM		Connectionless, unreliable message-type communications using a fixed length.
+
+SOCK_SEQPACKET		Message-type communications with fixed-length packets, but sequenced and more reliable.
+
+SOCK_RAW			Access to raw network protocols.
+
+SOCK_RDM			Connectionless but reliable communications, without using a particular packet order.
+
+SOCK_PACKET			Obsolete and should not be used.
+
+#FUNCTION socket()
+
+mySocket = socket(PF_INET, SOCK_STREAM, 0);
+
+use IPPROTO_TCP  for SOCK_STREAM and IPPROTO_UDP for SOCK_DGRAM
+
+# socket.h
+struct sockaddr_in {
+	short sin_family; 	/* type of address */
+	u_short sin_port; 	/* protocol port number */
+						/* network byte ordered */
+	u_long sin_addr;	/* net address for the remote host */
+						/* network byte ordered */
+	char sin_zero[8];	/* unused, set to zero */
+};
+
+
+# linger structure, socket.h
+
+struct linger
+{
+	int l_onoff; /* Nonzero to linger on close. */
+	int l_linger; /* Time to linger. */
+};
+
+
+# netdb.h
+struct servent
+{
+	char *s_name; 		/* Official service name. */
+	char **s_aliases; 	/* Alias list. */
+	int s_port; 		/* Port number, in network byte order. */
+	char *s_proto; 		/* Protocol to use. */
+};
+
+
+
+struct hostent *gethostbyaddr(const char *addr, int len, int type);
+struct hostent *gethostbyname(const char *name);
+
+
+struct hostent {
+	char *h_name;		/* official name of host */
+	char **h_aliases;	/* NULL-terminated array of alternate names */
+	int h_addrtype;		/* host address type, typically AF_NET */
+	int h_length;		/* length of address */
+	char **h_addr_list;	/* NULL-terminated list of addresses  */
+						/* returned from name server in  network */
+						/* byte order */
+};
+
+
+int gethostname(char *name, int namelen);
+int sethostname(const char *name, int namelen);
+
+struct servent *getservbyname(const char *name, const char *proto);
+struct servent *getservbyport(int port, const char *proto);
+
+int getsockopt(int s, int level, int optname, void *optval, socklen_t *optlen);
+int setsockopt(int s, int level, int optname,
+const void *optval, socklen_t optlen);
+
+
+NAME 				DESCRIPTION
+SO_DEBUG 			Enables recording of debugging information
+SO_REUSEADDR 		Enables local address reuse
+SO_REUSEPORT 		Enables duplicate address and port bindings
+SO_KEEPALIVE 		Keeps connections alive
+SO_DONTROUTE 		Enables routing bypass for outgoing messages
+SO_LINGER 			Linger on close if data present
+SO_BROADCAST 		Enables permission to transmit broadcast messages
+SO_OOBINLINE 		Enables reception of out-of-band data in band
+SO_SNDBUF 			Sets buffer size for output
+SO_RCVBUF 			Sets buffer size for input
+SO_SNDLOWAT 		Sets minimum count for output
+SO_RCVLOWAT 		Sets minimum count for input
+SO_SNDTIMEO 		Sets timeout value for output
+SO_RCVTIMEO 		Sets timeout value for input
+SO_ACCEPTFILTER 	Sets accept filter on listening socket
+SO_TYPE 			Gets the type of the socket (get only)
+
+Successful calls to either function return 0 or –1 if an error occurs.
+
+
+
+######################################################################
+CHAPTER 3
+######################################################################
+
+

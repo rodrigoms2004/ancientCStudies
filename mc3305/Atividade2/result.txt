@@ -1,0 +1,168 @@
+
+INSERINDO: 208
+ÁRVORE RESULTANTE: Nó: 208, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 209
+ÁRVORE RESULTANTE: Nó: 208, esq: 0, dir: 209, bal: 1
+Nó: 209, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 210
+ÁRVORE RESULTANTE: Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 211
+ÁRVORE RESULTANTE: Nó: 209, esq: 208, dir: 210, bal: 1
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 211, bal: 1
+Nó: 211, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 212
+ÁRVORE RESULTANTE: Nó: 209, esq: 208, dir: 211, bal: 1
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 211, esq: 210, dir: 212, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 213
+ÁRVORE RESULTANTE: Nó: 211, esq: 209, dir: 212, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 212, esq: 0, dir: 213, bal: 1
+Nó: 213, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 214
+ÁRVORE RESULTANTE: Nó: 211, esq: 209, dir: 213, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 215
+ÁRVORE RESULTANTE: Nó: 211, esq: 209, dir: 213, bal: 1
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 1
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 215, bal: 1
+Nó: 215, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 216
+ÁRVORE RESULTANTE: Nó: 211, esq: 209, dir: 213, bal: 1
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 215, bal: 1
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 215, esq: 214, dir: 216, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 216, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 217
+ÁRVORE RESULTANTE: Nó: 211, esq: 209, dir: 215, bal: 1
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 215, esq: 213, dir: 216, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 216, esq: 0, dir: 217, bal: 1
+Nó: 217, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 218
+ÁRVORE RESULTANTE: Nó: 211, esq: 209, dir: 215, bal: 1
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 215, esq: 213, dir: 217, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 217, esq: 216, dir: 218, bal: 0
+Nó: 216, esq: 0, dir: 0, bal: 0
+Nó: 218, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 219
+ÁRVORE RESULTANTE: Nó: 215, esq: 211, dir: 217, bal: 0
+Nó: 211, esq: 209, dir: 213, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 217, esq: 216, dir: 218, bal: 1
+Nó: 216, esq: 0, dir: 0, bal: 0
+Nó: 218, esq: 0, dir: 219, bal: 1
+Nó: 219, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 220
+ÁRVORE RESULTANTE: Nó: 215, esq: 211, dir: 217, bal: 0
+Nó: 211, esq: 209, dir: 213, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 217, esq: 216, dir: 219, bal: 1
+Nó: 216, esq: 0, dir: 0, bal: 0
+Nó: 219, esq: 218, dir: 220, bal: 0
+Nó: 218, esq: 0, dir: 0, bal: 0
+Nó: 220, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 221
+ÁRVORE RESULTANTE: Nó: 215, esq: 211, dir: 219, bal: 0
+Nó: 211, esq: 209, dir: 213, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 219, esq: 217, dir: 220, bal: 0
+Nó: 217, esq: 216, dir: 218, bal: 0
+Nó: 216, esq: 0, dir: 0, bal: 0
+Nó: 218, esq: 0, dir: 0, bal: 0
+Nó: 220, esq: 0, dir: 221, bal: 1
+Nó: 221, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 222
+ÁRVORE RESULTANTE: Nó: 215, esq: 211, dir: 219, bal: 0
+Nó: 211, esq: 209, dir: 213, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 219, esq: 217, dir: 221, bal: 0
+Nó: 217, esq: 216, dir: 218, bal: 0
+Nó: 216, esq: 0, dir: 0, bal: 0
+Nó: 218, esq: 0, dir: 0, bal: 0
+Nó: 221, esq: 220, dir: 222, bal: 0
+Nó: 220, esq: 0, dir: 0, bal: 0
+Nó: 222, esq: 0, dir: 0, bal: 0
+
+INSERINDO: 223
+ÁRVORE RESULTANTE: Nó: 215, esq: 211, dir: 219, bal: 1
+Nó: 211, esq: 209, dir: 213, bal: 0
+Nó: 209, esq: 208, dir: 210, bal: 0
+Nó: 208, esq: 0, dir: 0, bal: 0
+Nó: 210, esq: 0, dir: 0, bal: 0
+Nó: 213, esq: 212, dir: 214, bal: 0
+Nó: 212, esq: 0, dir: 0, bal: 0
+Nó: 214, esq: 0, dir: 0, bal: 0
+Nó: 219, esq: 217, dir: 221, bal: 1
+Nó: 217, esq: 216, dir: 218, bal: 0
+Nó: 216, esq: 0, dir: 0, bal: 0
+Nó: 218, esq: 0, dir: 0, bal: 0
+Nó: 221, esq: 220, dir: 222, bal: 1
+Nó: 220, esq: 0, dir: 0, bal: 0
+Nó: 222, esq: 0, dir: 223, bal: 1
+Nó: 223, esq: 0, dir: 0, bal: 0

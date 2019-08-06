@@ -1,0 +1,39 @@
+// FOR
+    int fat = 5, result = 1;
+    for(int num = fat; num > 1; --num)
+        result *= num;
+
+    cout << result << endl;
+
+    // GOTO
+    result = 1;
+    int num = fat;
+
+    AVALIA:
+    if(num > 1)
+    {
+        result *= num;
+        --num;
+        goto AVALIA;
+    }
+    cout << result << endl;
+
+    // WHILE
+    result = 1;
+    num = fat;
+    while(num > 1)
+    {
+        result *= num;
+        --num;
+    }
+    cout << result << endl;
+
+    // DO WHILE
+    result = 1;
+    num = fat;
+    do
+    {
+        result *= num;
+        --num;
+    } while(num >1);
+    cout << result << endl;

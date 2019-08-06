@@ -1,0 +1,21 @@
+
+// implementar no arquivo readers.c
+mutex db; // variável global
+
+
+void leitor () {
+
+	lock(db);
+	if (n_dentro == k) // K threads dentro, no exemplo serão 10 leitores
+		wait();
+		n_dentro++;
+	unlock(db);
+	
+	leBancoDeDados(); // realiza o acesso ao BD
+
+	lock(db);
+		n_dentro--;
+		signal(); // se uma thread sair, outra entra
+	unlock(db);
+}
+
